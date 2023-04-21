@@ -42,7 +42,7 @@ def ocr(update, context):
 
     if texts:
 
-        message_text = texts[0].description
+        message_text = texts[0].descriptin
 
     else:
 
@@ -52,7 +52,7 @@ def ocr(update, context):
 
 def main():
 
-    updater = Updater(TOKEN, use_context=True)
+    updater = Updater(TOKEN, use_context=True
 
     dp = updater.dispatcher
 
